@@ -68,6 +68,9 @@ GEM
       capistrano (~> 3.0)
       sshkit (~> 1.2)
     colorize (0.7.5)
+    configliere (0.4.18)
+      highline (>= 1.5.2)
+      multi_json (>= 1.1)
     diff-lcs (1.2.5)
     dragonfly (0.9.15)
       multi_json (~> 1.0)
@@ -193,6 +196,7 @@ DEPENDENCIES
   capistrano-passenger
   capistrano-rails
   capistrano-rvm
+  configliere
   dragonfly (~> 0.9.14)
   fabrication
   hirb

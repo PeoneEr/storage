@@ -14,6 +14,7 @@ group :default do
   gem 'rails', '~> 3.2',                        :require => false
   #gem 'libarchive-ruby',                :require => false
   gem 'russian'
+  gem 'configliere'
 end
 
 group :development do
