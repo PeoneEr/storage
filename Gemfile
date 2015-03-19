@@ -12,7 +12,6 @@ group :default do
   gem 'dragonfly', '~> 0.9.14'
   gem 'jquery-rails'
   gem 'jquery-ui-rails'
-  gem 'whenever'
   gem 'rails', '~> 3.2',                        :require => false
   #gem 'libarchive-ruby',                :require => false
   gem 'russian'

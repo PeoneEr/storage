@@ -6,7 +6,6 @@ require 'capistrano/rvm'
 require 'capistrano/deploytags'
 require 'capistrano/passenger'
 require 'capistrano-db-tasks'
-require "whenever/capistrano"
 require 'capistrano/sidekiq'
 require 'new_relic/recipes'
 
