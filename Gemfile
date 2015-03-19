@@ -10,20 +10,23 @@ group :default do
   gem 'ancestry'
   gem 'bunny',                          :require => false
   gem 'dragonfly', '~> 0.9.14'
-  gem 'esp-commons'
   gem 'jquery-rails'
-  gem 'rails',                          :require => false
-  gem 'libarchive-ruby',                :require => false
+  gem 'rails', '~> 3.2',                        :require => false
+  #gem 'libarchive-ruby',                :require => false
   gem 'russian'
 end
 
 group :development do
   gem 'annotate',                       :require => false
   gem 'brakeman',                       :require => false
-  gem 'capistrano-db-tasks',            :git => 'git://github.com/sgruhier/capistrano-db-tasks', :ref => '396cbbf', :require => false
-  gem 'capistrano-unicorn', '~> 0.1.7', :require => false
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-db-tasks', require: false
+  gem 'capistrano-deploytags'
+  gem 'capistrano-passenger'
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
   gem 'hirb'
-  gem 'openteam-capistrano'
 end
 
 group :production do
