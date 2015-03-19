@@ -10,7 +10,7 @@ group :default do
   gem 'ancestry'
   gem 'bunny',                          :require => false
   gem 'dragonfly', '~> 0.9.14'
-  gem 'jquery-rails'
+  gem 'jquery-rails', '~> 2.0.1'
   gem 'jquery-ui-rails'
   gem 'rails', '~> 3.2',                        :require => false
   #gem 'libarchive-ruby',                :require => false
