@@ -5,7 +5,7 @@
  * the compiled file.
  *
  *= require jquery
- *= require jquery-ui
+ *= require jquery.ui.all
  *= require elfinder.js
  *= require i18n/elfinder.ru.js
  */
