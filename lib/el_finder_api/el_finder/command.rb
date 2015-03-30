@@ -55,7 +55,6 @@ module ElFinder
         raise "Invalid parameters. #{arguments.errors.messages}" unless arguments.valid?
         self.result = "#{self.class.name}::Result".constantize.new(:arguments => arguments, :execute_command => execute_command, :command => self)
       rescue => e
-        Airbrake.notify e
         self.result = {error: e.message}
       end
     end
